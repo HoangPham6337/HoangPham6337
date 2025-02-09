@@ -12,6 +12,11 @@ pipeline {
                 git branch: 'main', credentialsId: 'github-token-id', url: 'https://github.com/${USER_NAME}/${USER_NAME}.git'
             }
         }
+        stage('Install Dependencies') {
+            steps {
+                sh 'pip3 install -r requirements.txt'
+            }
+        }
         stage('Generate Markdown') {
             steps {
                 sh 'python3 generate_markdown.py'
