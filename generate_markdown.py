@@ -1,7 +1,5 @@
 import os
-import urllib.request
 from datetime import datetime
-from ascii_magic import AsciiArt
 from get_user_data import (
     fetch_user_data,
     fetch_repo_and_star,
