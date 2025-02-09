@@ -12,9 +12,20 @@ pipeline {
                 git branch: 'main', credentialsId: 'github-token-id', url: 'https://github.com/HoangPham6337/HoangPham6337.git'
             }
         }
+        stage('Setup Virtual Environment') {
+            steps {
+                sh '''
+                ${PYTHON_BIN} -m venv venv
+                '''
+            }
+        }
         stage('Install Dependencies') {
             steps {
-                sh 'pip3 install -r requirements.txt'
+                sh '''
+                source venv/bin/activate
+                pip install --upgrade pip
+                pip install -r requirements.txt
+                '''
             }
         }
         stage('Generate Markdown') {
