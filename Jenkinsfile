@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', credentialsId: 'github-token-id', url: 'https://github.com/${USER_NAME}/${USER_NAME}.git'
+                git branch: 'main', credentialsId: 'github-token-id', url: 'https://github.com/HoangPham6337/HoangPham6337.git'
             }
         }
         stage('Install Dependencies') {
@@ -29,7 +29,7 @@ pipeline {
                 git config --global user.name "HoangPham6337"
                 git add README.md
                 git commit -m "Auto-update GitHub Markdown"
-                git push https://${GITHUB_TOKEN}@github.com/${USER_NAME}/${USER_NAME}.git
+                git push https://${GITHUB_TOKEN}@github.com/HoangPham6337/HoangPham6337.git
                 '''
             }
         }
