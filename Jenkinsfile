@@ -31,6 +31,7 @@ pipeline {
         }
         stage('Generate Markdown') {
             steps {
+                . venv/bin/activate
                 sh 'python3 generate_markdown.py'
             }
         }
