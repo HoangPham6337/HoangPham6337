@@ -5,7 +5,6 @@ pipeline {
         BIRTHDAY = "12 March, 2004"
         ACCESS_TOKEN = credentials('github-token-id')
         USER_NAME = "hoangpham6337"
-        PYTHON_BIN = "/usr/bin/python3"
     }
     stages {
         stage('Clone Repo') {
@@ -16,7 +15,7 @@ pipeline {
         stage('Setup Virtual Environment') {
             steps {
                 sh '''
-                ${PYTHON_BIN} -m venv venv
+                python3 -m venv venv
                 '''
             }
         }
@@ -32,6 +31,7 @@ pipeline {
         stage('Generate Markdown') {
             steps {
                 sh '''
+                cd $WORKSPACE
                 . venv/bin/activate
                 sh 'python3 generate_markdown.py'
                 '''
@@ -40,6 +40,7 @@ pipeline {
         stage('Commit & Push') {
             steps {
                 sh '''
+                cd $WORKSPACE
                 git config --global user.email "hoangpham4171@gmail.com"
                 git config --global user.name "HoangPham6337"
                 git add README.md
