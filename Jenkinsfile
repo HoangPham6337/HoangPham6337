@@ -2,9 +2,10 @@ pipeline {
     agent any
     environment {
         GITHUB_TOKEN = credentials('github-token-id')
-        BIRTHDAY = "12 March, 2004"  // Replace with your actual birthdate (YYYY-MM-DD)
-        ACCESS_TOKEN = credentials('github-token-id') // Uses Jenkins credential
-        USER_NAME = "hoangpham6337" // Replace with your GitHub username
+        BIRTHDAY = "12 March, 2004"
+        ACCESS_TOKEN = credentials('github-token-id')
+        USER_NAME = "hoangpham6337"
+        PYTHON_BIN = "/usr/bin/python3"
     }
     stages {
         stage('Clone Repo') {
