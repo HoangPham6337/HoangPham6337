@@ -8,3 +8,6 @@ def convert_picture_to_ascii(columns: int) -> str:
     urllib.request.urlretrieve(avatar_url, "avatar.jpg")
     avatar_art = AsciiArt.from_image("avatar.jpg")
     return avatar_art.to_ascii(columns=columns, monochrome=True)
+
+if __name__ == "__main__":
+    print(convert_picture_to_ascii(120))

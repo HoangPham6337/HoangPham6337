@@ -30,7 +30,7 @@ total_additions, total_deletions = fetch_total_lines()
 
 net_lines = total_additions - total_deletions if total_additions is not None and total_deletions is not None else "N/A"
 
-ascii_avatar = convert_picture_to_ascii(30)
+ascii_avatar = convert_picture_to_ascii(120)
 
 readme_content = f"""{user_data["account_name"]}'s GitHub Stats
 
