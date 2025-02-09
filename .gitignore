@@ -1,0 +1,4 @@
+.dmypy.json
+.idea
+__pycache__
+token.env

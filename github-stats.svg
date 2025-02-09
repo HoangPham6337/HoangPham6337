@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="250">
+    <rect width="100%" height="100%" fill="#1E1E2E"/>
+
+    <!-- Profile Picture -->
+    <image x="20" y="30" width="80" height="80" id="avatar" href=""/>
+
+    <!-- Username -->
+    <text x="120" y="50" font-size="24" fill="#FFFFFF" font-family="Arial" id="username">HoangPham6337</text>
+
+    <!-- Stats -->
+    <text x="120" y="80" font-size="18" fill="#CCCCCC" font-family="Arial">📅 Age: <tspan id="age">20 years, 339 days</tspan></text>
+    <text x="120" y="100" font-size="18" fill="#CCCCCC" font-family="Arial">📦 Repositories: <tspan id="repos">35</tspan></text>
+    <text x="120" y="120" font-size="18" fill="#CCCCCC" font-family="Arial">🌟 Stars: <tspan id="stars">0</tspan></text>
+    <text x="120" y="140" font-size="18" fill="#CCCCCC" font-family="Arial">🔥 LOC Added: <tspan id="loc_added">3831553</tspan></text>
+    <text x="120" y="160" font-size="18" fill="#CCCCCC" font-family="Arial">🔥 LOC Deleted: <tspan id="loc_deleted">46700</tspan></text>
+    <text x="120" y="180" font-size="18" fill="#CCCCCC" font-family="Arial">🔥 Net LOC: <tspan id="net_loc">3784853</tspan></text>
+
+    <!-- Last Updated -->
+    <text x="20" y="230" font-size="12" fill="#AAAAAA" font-family="Arial">Last updated: <tspan id="updated">2025-02-09 22:30:54</tspan></text>
+<text x="20" y="30" font_size="8" fill="#FFFFFF" font_family="monospace">EE4EGA$DBWWBD@&amp;bg4EE</text><text x="20" y="40" font_size="8" fill="#FFFFFF" font_family="monospace">EEYKWNBK$UU$DBDD@kEE</text><text x="20" y="50" font_size="8" fill="#FFFFFF" font_family="monospace">g$WBKUPggEEEEPGbGB@X</text><text x="20" y="60" font_size="8" fill="#FFFFFF" font_family="monospace">8WOZXdhgdSggEPXbUWW@</text><text x="20" y="70" font_size="8" fill="#FFFFFF" font_family="monospace">DWK$&amp;hE&amp;Y4ddZYYkKWWW</text><text x="20" y="80" font_size="8" fill="#FFFFFF" font_family="monospace">8WWN8gEVdbbYZhGKP@W@</text><text x="20" y="90" font_size="8" fill="#FFFFFF" font_family="monospace">g$WW&amp;h4SSbbbgS8D6bKX</text><text x="20" y="100" font_size="8" fill="#FFFFFF" font_family="monospace">44Y@K$&amp;OA8888UHD@AEd</text><text x="20" y="110" font_size="8" fill="#FFFFFF" font_family="monospace">ddVdPOUKHDDHK$OGP4dd</text></svg>

@@ -1,0 +1,20 @@
+<svg width="500" height="250" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#1E1E2E"/>
+
+    <!-- Profile Picture -->
+    <image x="20" y="30" width="80" height="80" id="avatar" href=""/>
+
+    <!-- Username -->
+    <text x="120" y="50" font-size="24" fill="#FFFFFF" font-family="Arial" id="username">Username</text>
+
+    <!-- Stats -->
+    <text x="120" y="80" font-size="18" fill="#CCCCCC" font-family="Arial">📅 Age: <tspan id="age">XX years, XX days</tspan></text>
+    <text x="120" y="100" font-size="18" fill="#CCCCCC" font-family="Arial">📦 Repositories: <tspan id="repos">0</tspan></text>
+    <text x="120" y="120" font-size="18" fill="#CCCCCC" font-family="Arial">🌟 Stars: <tspan id="stars">0</tspan></text>
+    <text x="120" y="140" font-size="18" fill="#CCCCCC" font-family="Arial">🔥 LOC Added: <tspan id="loc_added">0</tspan></text>
+    <text x="120" y="160" font-size="18" fill="#CCCCCC" font-family="Arial">🔥 LOC Deleted: <tspan id="loc_deleted">0</tspan></text>
+    <text x="120" y="180" font-size="18" fill="#CCCCCC" font-family="Arial">🔥 Net LOC: <tspan id="net_loc">0</tspan></text>
+
+    <!-- Last Updated -->
+    <text x="20" y="230" font-size="12" fill="#AAAAAA" font-family="Arial">Last updated: <tspan id="updated">YYYY-MM-DD HH:MM:SS</tspan></text>
+</svg>
