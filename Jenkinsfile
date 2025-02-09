@@ -23,7 +23,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 sh '''
-                source venv/bin/activate
+                . venv/bin/activate
                 pip install --upgrade pip
                 pip install -r requirements.txt
                 '''
