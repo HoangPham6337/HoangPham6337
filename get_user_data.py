@@ -3,7 +3,7 @@ import requests
 import os
 
 USER_TOKEN = os.environ['ACCESS_TOKEN']
-print("user token: " + len(USER_TOKEN))
+print("user token: " + str(len(USER_TOKEN)))
 USERNAME = os.environ['USER_NAME']
 GITHUB_API_USER = "https://api.github.com/users/"
 GITHUB_API_GRAPHQL = "https://api.github.com/graphql"
