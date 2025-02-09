@@ -33,7 +33,7 @@ pipeline {
                 sh '''
                 cd $WORKSPACE
                 . venv/bin/activate
-                sh 'python3 generate_markdown.py'
+                venv/bin/python generate_markdown.py
                 '''
             }
         }

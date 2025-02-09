@@ -35,16 +35,16 @@ HoangPham6337's GitHub Stats
 <td>
 
 👤 **Username:** Pham Xuan Hoang  
-📅 **Age:** 20 years, 339 days  
+📅 **Age:** 20 years, 340 days  
 📅 **Account Age:** 5, 231 days  
 📦 **Repositories:** 36  
 🌟 **Stars:** 0  
-📌 **Commits (Last Year):** 1028  
-📌 **Commits (All-Time):** 1513  
-🔥 **Lines of Code Added:** 3832192  
-🔥 **Lines of Code Deleted:** 46722  
-🔥 **Net Lines of Code:** 3785470  
-_Last updated on 2025-02-09 23:18:51_  
+📌 **Commits (Last Year):** 1038  
+📌 **Commits (All-Time):** 1523  
+🔥 **Lines of Code Added:** 3832292  
+🔥 **Lines of Code Deleted:** 46800  
+🔥 **Net Lines of Code:** 3785492  
+_Last updated on 2025-02-10 00:19:57_  
 </td>
 </tr>
 </table>
