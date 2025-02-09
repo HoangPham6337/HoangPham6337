@@ -31,8 +31,10 @@ pipeline {
         }
         stage('Generate Markdown') {
             steps {
+                sh '''
                 . venv/bin/activate
                 sh 'python3 generate_markdown.py'
+                '''
             }
         }
         stage('Commit & Push') {
