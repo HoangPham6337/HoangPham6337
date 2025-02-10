@@ -2,6 +2,8 @@ from typing import Dict
 import requests
 import os
 
+from requests import Response
+
 USER_TOKEN = os.environ['GITHUB_TOKEN'].strip()
 USERNAME = os.environ['USER_NAME'].strip()
 GITHUB_API_USER = "https://api.github.com/users/"
@@ -19,6 +21,15 @@ def fetch_user_data(username: str) -> Dict[str, int]:
         "following": response["following"],
         "public_repos": response["public_repos"],
     }
+
+
+def fetch_data_api(api_link: str, query: str, headers: dict[str, str], variables: dict[str, str]) -> Response | None:
+    response = requests.post(api_link, json={"query": query, "variables": variables}, headers=headers)
+    if response.status_code != 200:
+        print(f"❌ Error: {response.status_code} - {response.json()}")
+        return None
+
+    return response
 
 
 def fetch_repo_and_star() ->tuple[int, int] | tuple[None, None]:
@@ -53,13 +64,8 @@ def fetch_repo_and_star() ->tuple[int, int] | tuple[None, None]:
     total_stars = 0
 
     while True:
-        response = requests.post(GITHUB_API_GRAPHQL, json={"query": query, "variables": variables}, headers=headers)
-        if response.status_code != 200:
-            print(f"❌ Error: {response.status_code} - {response.json()}")
-            return None, None
-
-        data = response.json()
-        user_data = data.get("data", {}).get("user", {})
+        user_data = fetch_data_api(GITHUB_API_GRAPHQL, query, headers, variables)
+        user_data = user_data.json().get("data", {}).get("user", {})
 
         if total_repos == 0:
             total_repos = user_data.get("repositories", {}).get("totalCount", 0)
@@ -98,11 +104,7 @@ def fetch_last_year_commits() -> int | None:
     """
 
     variables = {"login": USERNAME}
-    response = requests.post(GITHUB_API_GRAPHQL, json={"query": query, "variables": variables}, headers=headers)
-
-    if response.status_code != 200:
-        print(f"❌ Error: {response.status_code} - {response.json()}")
-        return None
+    response = fetch_data_api(GITHUB_API_GRAPHQL, query, headers, variables)
 
     data = response.json()
     return data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
@@ -143,12 +145,7 @@ def fetch_all_commits() -> tuple[int] | None:
     variables = {"login": USERNAME, "cursor": None}
     total_commits = 0
     while True:
-        response = requests.post(GITHUB_API_GRAPHQL, json={"query": query, "variables": variables}, headers=headers)
-
-        if response.status_code != 200:
-            print(f"❌ Error: {response.status_code} - {response.json()}")
-            return None
-
+        response = fetch_data_api(GITHUB_API_GRAPHQL, query, headers, variables)
         data = response.json()
         user_data = data.get("data", {}).get("user", {})
 
@@ -205,15 +202,13 @@ def fetch_total_lines() -> tuple[int, int] | tuple[None, None]:
     }
     """
     variables = {"login": USERNAME, "cursor": None}
-    total_additions = 0
-    total_deletions = 0
+    additions = 0
+    deletions = 0
 
     while True:
-        response = requests.post(GITHUB_API_GRAPHQL, json={"query": query, "variables": variables}, headers=headers)
-
-        if response.status_code != 200:
-            print(f"❌ Error: {response.status_code} - {response.json()}")
-            return None, None
+        response = fetch_data_api(GITHUB_API_GRAPHQL, query, headers, variables)
+        if response is None:
+            break
 
         data = response.json()
         user_data = data.get("data", {}).get("user", {})
@@ -223,8 +218,8 @@ def fetch_total_lines() -> tuple[int, int] | tuple[None, None]:
             if repo["node"]["defaultBranchRef"]:
                 commit_history = repo["node"]["defaultBranchRef"]["target"]["history"]["edges"]
                 for commit in commit_history:
-                    total_additions += commit["node"]["additions"]
-                    total_deletions += commit["node"]["deletions"]
+                    additions += commit["node"]["additions"]
+                    deletions += commit["node"]["deletions"]
 
         page_info = user_data.get("repositories", {}).get("pageInfo", {})
         if page_info.get("hasNextPage"):
@@ -232,20 +227,20 @@ def fetch_total_lines() -> tuple[int, int] | tuple[None, None]:
         else:
             break
 
-    return total_additions, total_deletions
+    return additions, deletions
 
 
 
 if __name__ == "__main__":
-    # print(fetch_user_data(USERNAME))
-    # total_repos, total_stars = fetch_repo_and_star()
-    # print(f"📦 Total Repositories: {total_repos}")
-    # print(f"🌟 Total Stars Received: {total_stars}")
-    # last_year_commits = fetch_last_year_commits()
-    # all_time_commits = fetch_all_commits()
-    #
-    # print(f"📌 Commits in Last Year: {last_year_commits}")
-    # print(f"📌 All-Time Commits: {all_time_commits}")
+    print(fetch_user_data(USERNAME))
+    all_repos, stars = fetch_repo_and_star()
+    print(f"📦 Total Repositories: {all_repos}")
+    print(f"🌟 Total Stars Received: {stars}")
+    last_year_commits = fetch_last_year_commits()
+    all_time_commits = fetch_all_commits()
+
+    print(f"📌 Commits in Last Year: {last_year_commits}")
+    print(f"📌 All-Time Commits: {all_time_commits}")
 
     total_additions, total_deletions = fetch_total_lines()
 
