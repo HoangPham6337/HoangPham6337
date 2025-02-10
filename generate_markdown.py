@@ -38,18 +38,41 @@ readme_content = f"""{user_data["account_name"]}'s GitHub Stats
 {ascii_avatar}
 </td>
 <td>
+<h3>Personal details</h3>
+<ul>
+    <li><strong>Username:</strong> PHAM Xuan Hoang</li>
+    <li><strong>Age:</strong> {calculate_my_age(BIRTHDAY)["years"]} years, {calculate_my_age(BIRTHDAY)["days"]} days</li>
+</ul>
 
-👤 **Username:** Pham Xuan Hoang  
-📅 **Age:** {calculate_my_age(BIRTHDAY)["years"]} years, {calculate_my_age(BIRTHDAY)["days"]} days  
-📅 **Account Age:** {calculate_account_age(USERNAME)["years"]}, {calculate_account_age(USERNAME)["days"]} days  
-📦 **Repositories:** {total_repos}  
-🌟 **Stars:** {total_stars}  
-📌 **Commits (Last Year):** {last_year_commits}  
-📌 **Commits (All-Time):** {all_time_commits}  
-🔥 **Lines of Code Added:** {total_additions}  
-🔥 **Lines of Code Deleted:** {total_deletions}  
-🔥 **Net Lines of Code:** {net_lines}  
-_Last updated on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}_  
+<h3>Hobbies</h3>
+<ul>
+    <li>Tweaking Operating Systems</li>
+    <li>Coding</li>
+    <li>Listening to music</li>
+    <li>Reading books</li>
+</ul>
+
+<h3>Contacts</h3>
+<ul>
+    <li><strong>Email:</strong> hoangphamat0407@gmail.com</li>
+    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/xuan-hoang-pham">Hoang Pham Xuan</a></li>
+</ul>
+
+<h3>GitHub stats</h3>
+<ul>
+    <li><strong>Account Age:</strong> {calculate_account_age(USERNAME)["years"]} years, {calculate_account_age(USERNAME)["days"]} days</li>
+    <li><strong>Repositories:</strong> {total_repos}</li>
+    <li><strong>Stars:</strong> {total_stars}</li>
+    <li><strong>Commits (Last Year):</strong> {last_year_commits}</li>
+    <li><strong>Commits (All-time):</strong> {all_time_commits}</li>
+    <li><strong>Lines of Code Added:</strong> {total_additions}</li>
+    <li><strong>Lines of Code Deleted:</strong> {total_deletions}</li>
+    <li><strong>Net Lines of Code:</strong> {net_lines}</li>
+</ul>
+
+<p><em>Last updated on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</em></p>
+
+
 </td>
 </tr>
 </table>

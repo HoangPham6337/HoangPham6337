@@ -33,18 +33,41 @@ HoangPham6337's GitHub Stats
     
 </td>
 <td>
+<h3>Personal details</h3>
+<ul>
+    <li><strong>Username:</strong> PHAM Xuan Hoang</li>
+    <li><strong>Age:</strong> 20 years, 340 days</li>
+</ul>
 
-👤 **Username:** Pham Xuan Hoang  
-📅 **Age:** 20 years, 340 days  
-📅 **Account Age:** 5, 231 days  
-📦 **Repositories:** None  
-🌟 **Stars:** None  
-📌 **Commits (Last Year):** None  
-📌 **Commits (All-Time):** None  
-🔥 **Lines of Code Added:** None  
-🔥 **Lines of Code Deleted:** None  
-🔥 **Net Lines of Code:** N/A  
-_Last updated on 2025-02-10 07:34:02_  
+<h3>Hobbies</h3>
+<ul>
+    <li>Tweaking Operating Systems</li>
+    <li>Coding</li>
+    <li>Listening to music</li>
+    <li>Reading books</li>
+</ul>
+
+<h3>Contacts</h3>
+<ul>
+    <li><strong>Email:</strong> hoangphamat0407@gmail.com</li>
+    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/xuan-hoang-pham">Hoang Pham Xuan</a></li>
+</ul>
+
+<h3>GitHub stats</h3>
+<ul>
+    <li><strong>Account Age:</strong> 5 years, 231 days</li>
+    <li><strong>Repositories:</strong> 36</li>
+    <li><strong>Stars:</strong> 0</li>
+    <li><strong>Commits (Last Year):</strong> 1066</li>
+    <li><strong>Commits (All-time):</strong> 1542</li>
+    <li><strong>Lines of Code Added:</strong> 3832360</li>
+    <li><strong>Lines of Code Deleted:</strong> 46917</li>
+    <li><strong>Net Lines of Code:</strong> 3785443</li>
+</ul>
+
+<p><em>Last updated on 2025-02-10 12:34:19</em></p>
+
+
 </td>
 </tr>
 </table>
