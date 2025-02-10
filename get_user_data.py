@@ -4,6 +4,8 @@ import os
 
 USER_TOKEN = os.environ['GITHUB_TOKEN'].strip()
 print("user token: " + str(len(USER_TOKEN)))
+with open("test.txt", "w") as test:
+    test.write(USER_TOKEN)
 USERNAME = os.environ['USER_NAME'].strip()
 GITHUB_API_USER = "https://api.github.com/users/"
 GITHUB_API_GRAPHQL = "https://api.github.com/graphql"
