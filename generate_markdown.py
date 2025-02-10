@@ -13,7 +13,7 @@ from calculate_age import (
     calculate_my_age
 )
 
-USER_TOKEN = os.environ['ACCESS_TOKEN']
+USER_TOKEN = os.environ['GITHUB_TOKEN']
 USERNAME = os.environ['USER_NAME']
 BIRTHDAY = os.environ['BIRTHDAY']
 GITHUB_API_USER = "https://api.github.com/users/"

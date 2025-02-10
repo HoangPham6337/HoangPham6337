@@ -1,8 +1,8 @@
 import requests
 import os
 
-headers = {"Authorization": f"token {os.environ['ACCESS_TOKEN']}"}
-print(os.environ["ACCESS_TOKEN"])
+headers = {"Authorization": f"token {os.environ['GITHUB_TOKEN']}"}
+print(os.environ["GITHUB_TOKEN"])
 response = requests.get("http://api.github.com/user", headers=headers)
 print(response.json())
 if response.status_code == 200:

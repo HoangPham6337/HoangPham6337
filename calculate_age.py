@@ -3,7 +3,7 @@ from typing import Dict
 import requests
 import os
 
-token = os.environ['ACCESS_TOKEN']
+token = os.environ['GITHUB_TOKEN']
 user = os.environ['USER_NAME']
 
 
