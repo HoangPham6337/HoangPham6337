@@ -6,8 +6,6 @@ I believe software should be clean, resource-efficient, and powerful without unn
 
 Every project I work on is a challenge to solve real-world problems with better, faster, and smarter software—because innovation isn’t just about adding more, but making the most of what we have.
 
----
-
 ### 🧰 Languages and Tools
 
 <img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
@@ -27,8 +25,6 @@ Every project I work on is a challenge to solve real-world problems with better,
 <img align="left" alt="Redis" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg" />
 <img align="left" alt="MongoDB" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" />
 <br />
-
----
 
 ### 👤 HoangPham6337's GitHub Stats
 
@@ -108,14 +104,14 @@ Every project I work on is a challenge to solve real-world problems with better,
     <li><strong>Account Age:</strong> 5 years, 231 days</li>
     <li><strong>Repositories:</strong> 36</li>
     <li><strong>Stars:</strong> 0</li>
-    <li><strong>Commits (Last Year):</strong> 1078</li>
-    <li><strong>Commits (All-time):</strong> 1550</li>
-    <li><strong>Lines of Code Added:</strong> 3832698</li>
-    <li><strong>Lines of Code Deleted:</strong> 47113</li>
-    <li><strong>Net Lines of Code:</strong> 3785585</li>
+    <li><strong>Commits (Last Year):</strong> 1082</li>
+    <li><strong>Commits (All-time):</strong> 1553</li>
+    <li><strong>Lines of Code Added:</strong> 3832753</li>
+    <li><strong>Lines of Code Deleted:</strong> 47126</li>
+    <li><strong>Net Lines of Code:</strong> 3785627</li>
 </ul>
 
-<p><em>Last updated on 2025-02-10 12:22:31</em></p>
+<p><em>Last updated on 2025-02-10 12:31:25</em></p>
 
 </td>
 </tr>
