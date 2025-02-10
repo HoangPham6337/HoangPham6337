@@ -39,12 +39,12 @@ HoangPham6337's GitHub Stats
 📅 **Account Age:** 5, 231 days  
 📦 **Repositories:** 36  
 🌟 **Stars:** 0  
-📌 **Commits (Last Year):** 1056  
-📌 **Commits (All-Time):** 1532  
-🔥 **Lines of Code Added:** 3832316  
-🔥 **Lines of Code Deleted:** 46875  
-🔥 **Net Lines of Code:** 3785441  
-_Last updated on 2025-02-10 00:33:23_  
+📌 **Commits (Last Year):** 1057  
+📌 **Commits (All-Time):** 1533  
+🔥 **Lines of Code Added:** None  
+🔥 **Lines of Code Deleted:** None  
+🔥 **Net Lines of Code:** N/A  
+_Last updated on 2025-02-10 07:21:48_  
 </td>
 </tr>
 </table>
