@@ -3,7 +3,6 @@ pipeline {
     environment {
         GITHUB_TOKEN = credentials('github-token-id')
         BIRTHDAY = "12 March, 2004"
-        ACCESS_TOKEN = credentials('github-token-id')
         USER_NAME = "hoangpham6337"
     }
     stages {
