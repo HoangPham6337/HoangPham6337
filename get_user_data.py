@@ -2,9 +2,9 @@ from typing import Dict
 import requests
 import os
 
-USER_TOKEN = os.environ['GITHUB_TOKEN']
+USER_TOKEN = os.environ['GITHUB_TOKEN'].strip()
 print("user token: " + str(len(USER_TOKEN)))
-USERNAME = os.environ['USER_NAME']
+USERNAME = os.environ['USER_NAME'].strip()
 GITHUB_API_USER = "https://api.github.com/users/"
 GITHUB_API_GRAPHQL = "https://api.github.com/graphql"
 
