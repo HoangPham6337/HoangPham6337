@@ -42,6 +42,17 @@ HoangPham6337's GitHub Stats
                                                                         
                                                                         
                                                                         
+                                                                        
+     ___  ___  ________  ________ ________  ________   ________         
+     |\  \|\  \|\   __  \|\   ____\_____  \|\_____  \ |\_____  \       
+     \ \  \\  \ \  \|\  \ \  \___\|____|\ /\|____|\ /_ \|___/  /|      
+      \ \   __  \ \   ____\ \  \____    \|\  \    \|\  \    /  / /      
+       \ \  \ \  \ \  \___|\ \  ___  \ __\_\  \  __\_\  \  /  / /       
+        \ \__\ \__\ \__\    \ \_______\_______\|\_______\/__/ /        
+         \|__|\|__|\|__|     \|_______\|_______|\|_______||__|/         
+                                                                        
+                                                                        
+                                                                        
 </td>
 <td>
 <h3>Personal details</h3>
@@ -69,14 +80,14 @@ HoangPham6337's GitHub Stats
     <li><strong>Account Age:</strong> 5 years, 231 days</li>
     <li><strong>Repositories:</strong> 36</li>
     <li><strong>Stars:</strong> 0</li>
-    <li><strong>Commits (Last Year):</strong> 1068</li>
-    <li><strong>Commits (All-time):</strong> 1541</li>
-    <li><strong>Lines of Code Added:</strong> 3832452</li>
-    <li><strong>Lines of Code Deleted:</strong> 46955</li>
-    <li><strong>Net Lines of Code:</strong> 3785497</li>
+    <li><strong>Commits (Last Year):</strong> 1070</li>
+    <li><strong>Commits (All-time):</strong> 1543</li>
+    <li><strong>Lines of Code Added:</strong> 3832508</li>
+    <li><strong>Lines of Code Deleted:</strong> 46989</li>
+    <li><strong>Net Lines of Code:</strong> 3785519</li>
 </ul>
 
-<p><em>Last updated on 2025-02-10 11:39:10</em></p>
+<p><em>Last updated on 2025-02-10 11:47:06</em></p>
 
 
 </td>
