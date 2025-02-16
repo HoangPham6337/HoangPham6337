@@ -43,7 +43,8 @@ def fetch_user_data(username: str) -> Optional[Dict[str, int]]:
 
 
 def fetch_data_api(api_link: str, query: str, headers: dict[str, str], variables: dict[str, str]) \
-        -> Optional[Type[Response]]:
+        -> Optional[Response]:
+    headers["Authorization"] = f"Bearer {USER_TOKEN}"
     try:
         response = requests.post(api_link, json={"query": query, "variables": variables}, headers=headers)
         response.raise_for_status()
@@ -51,7 +52,7 @@ def fetch_data_api(api_link: str, query: str, headers: dict[str, str], variables
         if "errors" in json_response:
             print(f"⚠️ GraphQL API returned errors: {json_response['errors']}")
             return None
-        return Response
+        return response
 
     except requests.exceptions.RequestException as e:
         print(f"❌ Error: API request failed: {e}")
@@ -148,8 +149,12 @@ def fetch_last_year_commits() -> Optional[int]:
         return None
     try:
         data = response.json()
-        total_commits = data.get("data", {}).get("user", {}).get("contributionsCollection", {}).get(
-            "totalContributions", 0)
+        total_commits = (data.get("data", {})
+                         .get("user", {})
+                         .get("contributionsCollection", {})
+                         .get("contributionCalendar", {})
+                         .get("totalContributions", 0)
+                         )
         return total_commits
     except (KeyError, TypeError):
         print("⚠️ Warning: Unexpected response format in fetch_last_year_commits.")
