@@ -16,17 +16,34 @@ from calculate_age import (
 USER_TOKEN = os.environ['GITHUB_TOKEN']
 USERNAME = os.environ['USER_NAME']
 BIRTHDAY = os.environ['BIRTHDAY']
+
+
+if not USER_TOKEN:
+    raise ValueError("❌ Error: Missing required environment variables `GITHUB_TOKEN`.")
+
+if not USERNAME:
+    raise ValueError("❌ Error: Missing required environment variables `USER_NAME`.")
+
+if not BIRTHDAY:
+    raise ValueError("❌ Error: Missing required environment variables `BIRTHDAY`.")
+
 GITHUB_API_USER = "https://api.github.com/users/"
 GITHUB_API_GRAPHQL = "https://api.github.com/graphql"
 
-user_data = fetch_user_data(USERNAME)
-total_repos, total_stars = fetch_repo_and_star()
-last_year_commits = fetch_last_year_commits()
-all_time_commits = fetch_all_commits()
+try:
+    user_data = fetch_user_data(USERNAME)
+    total_repos, total_stars = fetch_repo_and_star()
+    last_year_commits = fetch_last_year_commits()
+    all_time_commits = fetch_all_commits()
+    total_additions, total_deletions = fetch_total_lines()
+    if None in (user_data, total_repos, total_stars, last_year_commits, all_time_commits):
+        print("❌ Error: Failed to retrieve necessary data. Exiting.")
+        exit(1)
+    net_lines = total_additions - total_deletions if total_additions is not None and total_deletions is not None else "N/A"
+except Exception as e:
+    print(f"❌ Failed to fetch GitHub data: {e}")
+    exit(1)
 
-total_additions, total_deletions = fetch_total_lines()
-
-net_lines = total_additions - total_deletions if total_additions is not None and total_deletions is not None else "N/A"
 
 ascii_avatar = convert_picture_to_ascii(120)
 
@@ -105,7 +122,10 @@ Every project I work on is a challenge to solve real-world problems with better,
 </table>
 """
 
-with open("README.md", "w", encoding="utf-8") as file:
-    file.write(readme_content)
-
-print("Operation complete")
+try:
+    with open("README.md", "w", encoding="utf-8") as file:
+        file.write(readme_content)
+        print("✅ README.md successfully updated!")
+except IOError as e:
+    print("❌ Failed to write README.md: {e}")
+    exit(1)
