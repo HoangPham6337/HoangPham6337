@@ -44,7 +44,10 @@ def fetch_user_data(username: str) -> Optional[Dict[str, int]]:
 
 def fetch_data_api(api_link: str, query: str, headers: dict[str, str], variables: dict[str, str]) \
         -> Optional[Response]:
-    headers["Authorization"] = f"Bearer {USER_TOKEN}"
+    headers.update({
+        "Authorization": f"Bearer {USER_TOKEN}",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    })
     try:
         response = requests.post(api_link, json={"query": query, "variables": variables}, headers=headers)
         response.raise_for_status()
