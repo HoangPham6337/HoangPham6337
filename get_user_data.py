@@ -118,7 +118,7 @@ def fetch_all_commits() -> tuple[int] | None:
     query = """
     query($login: String!, $cursor: String) {
       user(login: $login) {
-        repositories(first: 100, after: $cursor) {
+        repositories(first: 50, after: $cursor) {
           totalCount
           edges {
             node {
@@ -126,7 +126,7 @@ def fetch_all_commits() -> tuple[int] | None:
               defaultBranchRef {
                 target {
                   ... on Commit {
-                    history(first: 100) {
+                    history(first: 50) {
                       totalCount
                     }
                   }
