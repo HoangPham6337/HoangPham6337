@@ -49,7 +49,7 @@ def fetch_data_api(api_link: str, query: str, headers: dict[str, str], variables
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     })
     try:
-        response = requests.post(api_link, json={"query": query, "variables": variables}, headers=headers)
+        response = requests.post(api_link, json={"query": query, "variables": variables}, headers=headers, timeout=60)
         response.raise_for_status()
         json_response = response.json()
         if "errors" in json_response:
