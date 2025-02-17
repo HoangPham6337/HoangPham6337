@@ -104,14 +104,14 @@ Every project I work on is a challenge to solve real-world problems with better,
     <li><strong>Account Age:</strong> 5 years, 238 days</li>
     <li><strong>Repositories:</strong> 36</li>
     <li><strong>Stars:</strong> 0</li>
-    <li><strong>Commits (Last Year):</strong> 1102</li>
-    <li><strong>Commits (All-time):</strong> 1583</li>
-    <li><strong>Lines of Code Added:</strong> 3832299</li>
-    <li><strong>Lines of Code Deleted:</strong> 47323</li>
-    <li><strong>Net Lines of Code:</strong> 3784976</li>
+    <li><strong>Commits (Last Year):</strong> 1103</li>
+    <li><strong>Commits (All-time):</strong> 1584</li>
+    <li><strong>Lines of Code Added:</strong> None</li>
+    <li><strong>Lines of Code Deleted:</strong> None</li>
+    <li><strong>Net Lines of Code:</strong> N/A</li>
 </ul>
 
-<p><em>Last updated on 2025-02-17 00:33:22</em></p>
+<p><em>Last updated on 2025-02-17 12:33:30</em></p>
 
 </td>
 </tr>
