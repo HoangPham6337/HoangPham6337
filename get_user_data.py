@@ -231,13 +231,13 @@ def fetch_total_lines() -> tuple[int, int] | tuple[None, None]:
     query = """
     query($login: String!, $cursor: String, $commitCursor: String) {
       user(login: $login) {
-        repositories(first: 50, after: $cursor) {
+        repositories(first: 10, after: $cursor) {
           edges {
             node {
               defaultBranchRef {
                 target {
                   ... on Commit {
-                    history(first: 50, after: $commitCursor) {
+                    history(first: 10, after: $commitCursor) {
                       edges {
                         node {
                           additions
