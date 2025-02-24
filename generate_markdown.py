@@ -123,6 +123,7 @@ Every project I work on is a challenge to solve real-world problems with better,
 </td>
 </tr>
 </table>
+<p>This README is updated automatically by Jenkins.</p>
 """
 
 try:
