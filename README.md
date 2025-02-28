@@ -34,6 +34,44 @@ Every project I work on is a challenge to solve real-world problems with better,
 <table>
 <tr>
 <td>
+<h3>Personal details</h3>
+<ul>
+    <li><strong>Username:</strong> PHAM Xuan Hoang</li>
+    <li><strong>Age:</strong> 20 years, 358 days</li>
+</ul>
+
+<h3>Hobbies</h3>
+<ul>
+    <li>Tweaking Operating Systems</li>
+    <li>Coding</li>
+    <li>Listening to music</li>
+    <li>Reading books</li>
+</ul>
+
+<h3>Contacts</h3>
+<ul>
+    <li><strong>Email:</strong> <a href="mailto:hoangphamat0407@gmail.com">hoangphamat0407@gmail.com</a></li>
+    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/xuan-hoang-pham">Hoang Pham Xuan</a></li>
+    <li><strong>Website:</strong> <a href="https://hoangpham6337.github.io/portfolio/">My Portfolio</a></li>
+</ul>
+
+<h3>GitHub stats</h3>
+<ul>
+    <li><strong>Account Age:</strong> 5 years, 249 days</li>
+    <li><strong>Repositories:</strong> 37</li>
+    <li><strong>Stars:</strong> 0</li>
+    <li><strong>Commits (Last Year):</strong> 1127</li>
+    <li><strong>Commits (All-time):</strong> 1619</li>
+    <li><strong>Lines of Code Added:</strong> 3543917</li>
+    <li><strong>Lines of Code Deleted:</strong> 16850</li>
+    <li><strong>Net Lines of Code:</strong> 3527067</li>
+</ul>
+
+<p><em>Last updated on 2025-02-28 11:48:46</em></p>
+
+</td>
+
+<td>
                                                                         
                                                                         
                                                                         
@@ -81,42 +119,7 @@ Every project I work on is a challenge to solve real-world problems with better,
                                                                     
                                                                     
 </td>
-<td>
-<h3>Personal details</h3>
-<ul>
-    <li><strong>Username:</strong> PHAM Xuan Hoang</li>
-    <li><strong>Age:</strong> 20 years, 358 days</li>
-</ul>
 
-<h3>Hobbies</h3>
-<ul>
-    <li>Tweaking Operating Systems</li>
-    <li>Coding</li>
-    <li>Listening to music</li>
-    <li>Reading books</li>
-</ul>
-
-<h3>Contacts</h3>
-<ul>
-    <li><strong>Email:</strong> hoangphamat0407@gmail.com</li>
-    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/xuan-hoang-pham">Hoang Pham Xuan</a></li>
-</ul>
-
-<h3>GitHub stats</h3>
-<ul>
-    <li><strong>Account Age:</strong> 5 years, 249 days</li>
-    <li><strong>Repositories:</strong> 36</li>
-    <li><strong>Stars:</strong> 0</li>
-    <li><strong>Commits (Last Year):</strong> 1121</li>
-    <li><strong>Commits (All-time):</strong> 1615</li>
-    <li><strong>Lines of Code Added:</strong> 3538811</li>
-    <li><strong>Lines of Code Deleted:</strong> 16881</li>
-    <li><strong>Net Lines of Code:</strong> 3521930</li>
-</ul>
-
-<p><em>Last updated on 2025-02-28 00:33:33</em></p>
-
-</td>
 </tr>
 </table>
 <p>This README is updated automatically by Jenkins.</p>
