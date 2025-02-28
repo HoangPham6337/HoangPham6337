@@ -83,9 +83,6 @@ Every project I work on is a challenge to solve real-world problems with better,
 <table>
 <tr>
 <td>
-{ascii_avatar}
-</td>
-<td>
 <h3>Personal details</h3>
 <ul>
     <li><strong>Username:</strong> PHAM Xuan Hoang</li>
@@ -102,8 +99,9 @@ Every project I work on is a challenge to solve real-world problems with better,
 
 <h3>Contacts</h3>
 <ul>
-    <li><strong>Email:</strong> hoangphamat0407@gmail.com</li>
+    <li><strong>Email:</strong> <a href="mailto:hoangphamat0407@gmail.com">hoangphamat0407@gmail.com</a></li>
     <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/xuan-hoang-pham">Hoang Pham Xuan</a></li>
+    <li><strong>Website:</strong> <a href="https://hoangpham6337.github.io/portfolio/">My Portfolio</a></li>
 </ul>
 
 <h3>GitHub stats</h3>
@@ -121,6 +119,11 @@ Every project I work on is a challenge to solve real-world problems with better,
 <p><em>Last updated on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</em></p>
 
 </td>
+
+<td>
+{ascii_avatar}
+</td>
+
 </tr>
 </table>
 <p>This README is updated automatically by Jenkins.</p>
