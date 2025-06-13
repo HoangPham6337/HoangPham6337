@@ -27,6 +27,8 @@ Every project I work on is a challenge to solve real-world problems with better,
   <img alt="Docker" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" />
   <img alt="Redis" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg" />
   <img alt="MongoDB" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" />
+  <img alt="PyTorch" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" />
+  <img alt="TensorFlow" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" />
 </p>
 
 ### 👤 HoangPham6337's GitHub Stats
@@ -60,14 +62,14 @@ Every project I work on is a challenge to solve real-world problems with better,
     <li><strong>Account Age:</strong> 5 years, 354 days</li>
     <li><strong>Repositories:</strong> 43</li>
     <li><strong>Stars:</strong> 2</li>
-    <li><strong>Commits (Last Year):</strong> 892</li>
-    <li><strong>Commits (All-time):</strong> 1935</li>
-    <li><strong>Lines of Code Added:</strong> 3596011</li>
-    <li><strong>Lines of Code Deleted:</strong> 275394</li>
-    <li><strong>Net Lines of Code:</strong> 3320617</li>
+    <li><strong>Commits (Last Year):</strong> 894</li>
+    <li><strong>Commits (All-time):</strong> 1937</li>
+    <li><strong>Lines of Code Added:</strong> 3596008</li>
+    <li><strong>Lines of Code Deleted:</strong> 275389</li>
+    <li><strong>Net Lines of Code:</strong> 3320619</li>
 </ul>
 
-<p><em>Last updated on 2025-06-13 03:07:20</em></p>
+<p><em>Last updated on 2025-06-13 03:13:25</em></p>
 
 </td>
 
