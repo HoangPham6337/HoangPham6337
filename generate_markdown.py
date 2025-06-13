@@ -94,7 +94,7 @@ Every project I work on is a challenge to solve real-world problems with better,
     <li>Tweaking Operating Systems</li>
     <li>Coding</li>
     <li>Listening to music</li>
-    <li>Reading books</li>
+    <li>The Witcher 3</li>
 </ul>
 
 <h3>Contacts</h3>
