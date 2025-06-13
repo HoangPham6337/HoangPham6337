@@ -37,7 +37,7 @@ Every project I work on is a challenge to solve real-world problems with better,
 <h3>Personal details</h3>
 <ul>
     <li><strong>Username:</strong> PHAM Xuan Hoang</li>
-    <li><strong>Age:</strong> 21 years, 96 days</li>
+    <li><strong>Age:</strong> 21 years, 98 days</li>
 </ul>
 
 <h3>Hobbies</h3>
@@ -45,7 +45,7 @@ Every project I work on is a challenge to solve real-world problems with better,
     <li>Tweaking Operating Systems</li>
     <li>Coding</li>
     <li>Listening to music</li>
-    <li>Reading books</li>
+    <li>The Witcher 3</li>
 </ul>
 
 <h3>Contacts</h3>
@@ -57,17 +57,17 @@ Every project I work on is a challenge to solve real-world problems with better,
 
 <h3>GitHub stats</h3>
 <ul>
-    <li><strong>Account Age:</strong> 5 years, 352 days</li>
+    <li><strong>Account Age:</strong> 5 years, 354 days</li>
     <li><strong>Repositories:</strong> 43</li>
     <li><strong>Stars:</strong> 2</li>
-    <li><strong>Commits (Last Year):</strong> 856</li>
-    <li><strong>Commits (All-time):</strong> 1914</li>
-    <li><strong>Lines of Code Added:</strong> 3596357</li>
-    <li><strong>Lines of Code Deleted:</strong> 275291</li>
-    <li><strong>Net Lines of Code:</strong> 3321066</li>
+    <li><strong>Commits (Last Year):</strong> 892</li>
+    <li><strong>Commits (All-time):</strong> 1935</li>
+    <li><strong>Lines of Code Added:</strong> 3596011</li>
+    <li><strong>Lines of Code Deleted:</strong> 275394</li>
+    <li><strong>Net Lines of Code:</strong> 3320617</li>
 </ul>
 
-<p><em>Last updated on 2025-06-11 00:33:52</em></p>
+<p><em>Last updated on 2025-06-13 03:07:20</em></p>
 
 </td>
 
