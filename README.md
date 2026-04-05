@@ -39,7 +39,7 @@ Every project I work on is a challenge to solve real-world problems with better,
 <h3>Personal details</h3>
 <ul>
     <li><strong>Username:</strong> PHAM Xuan Hoang</li>
-    <li><strong>Age:</strong> 22 years, 37 days</li>
+    <li><strong>Age:</strong> 22 years, 38 days</li>
 </ul>
 
 <h3>Hobbies</h3>
@@ -59,17 +59,17 @@ Every project I work on is a challenge to solve real-world problems with better,
 
 <h3>GitHub stats</h3>
 <ul>
-    <li><strong>Account Age:</strong> 6 years, 285 days</li>
+    <li><strong>Account Age:</strong> 6 years, 286 days</li>
     <li><strong>Repositories:</strong> 44</li>
     <li><strong>Stars:</strong> 2</li>
-    <li><strong>Commits (Last Year):</strong> 613</li>
-    <li><strong>Commits (All-time):</strong> 2485</li>
-    <li><strong>Lines of Code Added:</strong> 3582053</li>
-    <li><strong>Lines of Code Deleted:</strong> 400867</li>
-    <li><strong>Net Lines of Code:</strong> 3181186</li>
+    <li><strong>Commits (Last Year):</strong> 634</li>
+    <li><strong>Commits (All-time):</strong> 2506</li>
+    <li><strong>Lines of Code Added:</strong> 3582050</li>
+    <li><strong>Lines of Code Deleted:</strong> 400764</li>
+    <li><strong>Net Lines of Code:</strong> 3181286</li>
 </ul>
 
-<p><em>Last updated on 2026-04-04 21:33:55</em></p>
+<p><em>Last updated on 2026-04-05 21:33:57</em></p>
 
 </td>
 
