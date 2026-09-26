@@ -39,7 +39,7 @@ Every project I work on is a challenge to solve real-world problems with better,
 <h3>Personal details</h3>
 <ul>
     <li><strong>Username:</strong> PHAM Xuan Hoang</li>
-    <li><strong>Age:</strong> 22 years, 143 days</li>
+    <li><strong>Age:</strong> 22 years, 212 days</li>
 </ul>
 
 <h3>Hobbies</h3>
@@ -59,17 +59,17 @@ Every project I work on is a challenge to solve real-world problems with better,
 
 <h3>GitHub stats</h3>
 <ul>
-    <li><strong>Account Age:</strong> 7 years, 26 days</li>
-    <li><strong>Repositories:</strong> 44</li>
-    <li><strong>Stars:</strong> 2</li>
-    <li><strong>Commits (Last Year):</strong> 585</li>
-    <li><strong>Commits (All-time):</strong> 2714</li>
-    <li><strong>Lines of Code Added:</strong> 3569142</li>
-    <li><strong>Lines of Code Deleted:</strong> 404558</li>
-    <li><strong>Net Lines of Code:</strong> 3164584</li>
+    <li><strong>Account Age:</strong> 7 years, 95 days</li>
+    <li><strong>Repositories:</strong> 48</li>
+    <li><strong>Stars:</strong> 4</li>
+    <li><strong>Commits (Last Year):</strong> 466</li>
+    <li><strong>Commits (All-time):</strong> 2822</li>
+    <li><strong>Lines of Code Added:</strong> 7405877</li>
+    <li><strong>Lines of Code Deleted:</strong> 4179528</li>
+    <li><strong>Net Lines of Code:</strong> 3226349</li>
 </ul>
 
-<p><em>Last updated on 2026-07-19 21:33:44</em></p>
+<p><em>Last updated on 2026-09-26 17:09:52</em></p>
 
 </td>
 
